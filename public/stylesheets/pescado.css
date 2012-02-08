@@ -1,0 +1,77 @@
+    @font-face {
+	font-family: PetitaBold;
+	src: url('../images/PetitaBold.ttf');
+    }
+
+    @font-face {
+	font-family: PetitaLight;
+	src: url('../images/PetitaLight.ttf');
+    }
+
+    body {
+	margin: 25px;
+	padding: 0px;
+    }
+
+    #page {
+        background-color: #fff;
+        width: 750px;
+	height: 550px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    h1 {
+	font-family: PetitaBold, Helvetica, Arial;
+	font-size: 20px;
+	letter-spacing: 10px;
+	color: #000;
+	text-align: center;
+    }
+    
+    #header {
+	background-image: url("../images/octopus.gif");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 375px
+    }
+
+    #content {
+	opacity: 0.2;
+    }
+    
+    hr {
+	margin-top: 23px;
+	width: 200px;
+	height: 2px;
+	color: #000;
+	background-color: #000;
+    }
+
+    table {
+	width: 100%;
+    }
+
+    td {
+	height: 105px;
+	width: 25%;
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 18px;
+	font-family: PetitaLight;
+    }
+
+    a#active {
+	font-family: PetitaBold;
+    }
+
+    a {
+	text-decoration: none;
+	transition-property: font-family;
+    }
+
+    a:hover {
+	font-family: PetitaBold;
+    }
