@@ -38,6 +38,15 @@
 	height: 375px
     }
 
+    #about {
+	background-image: url("../images/fish.gif");
+	background-size: auto 350px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 375px
+    }
+
+
     #content {
 	opacity: 0.2;
     }
