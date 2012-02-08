@@ -34,15 +34,15 @@
 	background-image: url("../images/octopus.gif");
 	background-size: auto 350px;
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: bottom center;
 	height: 375px
     }
 
     #about {
 	background-image: url("../images/fish.gif");
-	background-size: auto 350px;
+	background-size: auto 200px;
 	background-repeat: no-repeat;
-	background-position: top center;
+	background-position: bottom center;
 	height: 375px
     }
 
