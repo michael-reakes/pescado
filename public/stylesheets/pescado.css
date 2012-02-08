@@ -35,7 +35,8 @@
 	background-size: auto 350px;
 	background-repeat: no-repeat;
 	background-position: bottom center;
-	height: 375px
+	height: 375px;
+	opacity: 0.2;
     }
 
     #fish {
@@ -46,7 +47,22 @@
 	height: 375px
     }
 
+    #about {
+	color: #F05F46;
+    }
 
+    #testimonials {
+	color: #B43F2D;
+    }
+
+    #experience {
+	color: #E07633;
+    }
+
+    #contact {
+	color: #EDB04A;
+    }
+    
     #content {
 	opacity: 0.2;
     }
