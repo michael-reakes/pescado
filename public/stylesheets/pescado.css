@@ -30,7 +30,7 @@
 	text-align: center;
     }
     
-    #header {
+    #octopus {
 	background-image: url("../images/octopus.gif");
 	background-size: auto 350px;
 	background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 	height: 375px
     }
 
-    #about {
+    #fish {
 	background-image: url("../images/fish.gif");
 	background-size: auto 200px;
 	background-repeat: no-repeat;
