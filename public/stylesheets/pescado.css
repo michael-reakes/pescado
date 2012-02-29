@@ -11,6 +11,8 @@
     body {
 	margin: 0px;
 	padding: 0px;
+	font-family: PetitaLight;
+	font-size: 16px;
     }
 
     #page {
@@ -42,9 +44,10 @@
 	width: 100%;
 	height: 375px;
  	z-index: 2;
+	text-align: center;
 
     }
-
+/* Title and Menu */
     #menu {
 /*	border: solid purple;*/
 	position: relative;
@@ -52,7 +55,7 @@
 	width: 100%;
     }
 
-    h1 {
+    #menu h1 {
 	font-family: PetitaBold, Helvetica, Arial;
 	font-size: 20px;
 	letter-spacing: 10px;
@@ -60,58 +63,51 @@
 	text-align: center;
     }
 
-    hr {
+    #menu hr {
 	margin-top: 23px;
 	width: 200px;
 	height: 2px;
 	color: #000;
 	background-color: #000;
     }
-    
-    #about {
-	color: #F05F46;
-    }
 
-    #testimonials {
-	color: #B43F2D;
-    }
-
-    #experience {
-	color: #E07633;
-    }
-
-    #contact {
-	color: #EDB04A;
-    }
-    
-    table {
+    #menu table {
 	width: 100%;
     }
 
-    td {
+    #menu td {
 	height: 105px;
 	width: 25%;
 	vertical-align: bottom;
 	text-align: center;
 	font-size: 18px;
-	font-family: PetitaLight;
     }
 
-    a#active {
-	font-family: PetitaBold;
-    }
-
-    a {
+    #menu a {
 	text-decoration: none;
 	transition-property: font-family;
     }
 
-    a:hover {
+    #menu #active {
 	font-family: PetitaBold;
     }
 
-    p {
-	font-family: PetitaLight;
-	font-size: 14px;
+    #menu a:hover {
+	font-family: PetitaBold;
     }
-	
+    
+    #menu a#about {
+	color: #F05F46;
+    }
+
+    #menu a#testimonials {
+	color: #B43F2D;
+    }
+
+    #menu a#experience {
+	color: #E07633;
+    }
+
+    #menu a#contact {
+	color: #EDB04A;
+    }
