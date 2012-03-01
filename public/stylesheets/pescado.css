@@ -93,6 +93,10 @@
     }
 
     #menu h1 {
+/*	border: solid gray;*/
+	position: relative;
+	top: 0px;
+	margin: 0px auto;
 	font-family: PetitaBold, Helvetica, Arial;
 	font-size: 20px;
 	letter-spacing: 10px;
@@ -101,21 +105,25 @@
     }
 
     #menu hr {
-	margin-top: 23px;
+/*	border: solid pink;*/
+	position: relative;
+	top: 23px;
 	width: 200px;
 	height: 2px;
-	color: #000;
 	background-color: #000;
+	color: #000;
     }
 
     #menu table {
+/*	border: solid red;*/
+	position: absolute;
+	bottom: 0px;
 	width: 100%;
+	margin: 0px auto;
     }
 
     #menu td {
-	height: 105px;
 	width: 25%;
-	vertical-align: bottom;
 	text-align: center;
 	font-size: 18px;
     }
@@ -125,7 +133,7 @@
 	transition-property: font-family;
     }
 
-    #menu #active {
+    #menu .active {
 	font-family: PetitaBold;
     }
 
@@ -133,18 +141,18 @@
 	font-family: PetitaBold;
     }
     
-    #menu a#about {
+    .red {
 	color: #F05F46;
     }
 
-    #menu a#testimonials {
+    .maroon {
 	color: #B43F2D;
     }
 
-    #menu a#experience {
+    .orange {
 	color: #E07633;
     }
 
-    #menu a#contact {
+    .yellow {
 	color: #EDB04A;
     }
