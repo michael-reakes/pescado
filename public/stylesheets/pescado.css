@@ -60,15 +60,13 @@
 	text-align: right;
     }
     
-    #content input {
+    #content input, select, textarea {
 	width:100%;
 	background: transparent;
     }
 
     #content textarea {
 	height: 100px;
-	width: 100%;
-	background: transparent;
     }
 
     #content input:focus, select:focus, textarea:focus {
