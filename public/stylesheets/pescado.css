@@ -45,8 +45,36 @@
 	height: 375px;
  	z-index: 2;
 	text-align: center;
-
     }
+
+    #content table {
+	width:100%;
+	padding: 10px;
+    }
+    
+    #content td {
+	width: 25%;
+	vertical-align: center;
+    }
+    #content td#title {
+	text-align: right;
+    }
+    
+    #content input {
+	width:100%;
+	background: transparent;
+    }
+
+    #content textarea {
+	height: 100px;
+	width: 100%;
+	background: transparent;
+    }
+
+    #content input:focus, select:focus, textarea:focus {
+	outline-color: #B43F2D;
+    }
+    
 /* Title and Menu */
     #menu {
 /*	border: solid purple;*/
