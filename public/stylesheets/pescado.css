@@ -40,6 +40,10 @@
 
     }
 
+    .fade {
+	opacity: 0.1;
+    }
+
     #content {
 /*	border: solid green;*/
 	position: relative;
@@ -62,11 +66,6 @@
     #content td#title {
 	text-align: right;
     }
-
-    #content a {
-	color: #B43F2D;
-    }
-
     
     #content input, select, textarea {
 	width:100%;
@@ -79,6 +78,14 @@
 
     #content input:focus, select:focus, textarea:focus {
 	outline-color: #B43F2D;
+    }
+
+    #column {
+	width:50%;
+    }
+
+    #column p, li, table {
+	padding: 10px;
     }
     
 /* Title and Menu */

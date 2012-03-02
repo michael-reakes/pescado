@@ -8,36 +8,33 @@
   </head>
   <body>
     <div id="page">
-      <div id="fish" style="opacity: 0.2">&nbsp;</div>
+      <div id="fish" class="fade">&nbsp;</div>
       <div id="content">
-<!--	<div style="width:50%; border: solid orange; position:absolute; left:0px;">
+	<div id="column" style="float:left;">
+	  <p>We'd love to talk to you about catering
+	    your next event! Please feel free to contact Matt
+	    Bowrey by any of the methods below:</p>
+	  <ul style="text-align: left;">
+	    <li>email: <a href="mailto:matt@pascado.com.au" class="maroon">matt@pescado.com.au</a></li>
+	    <li>mobile: +61 (0) 421 012 272</li>
+	  </ul>
 	</div>
-	<div style="width:50%; border: solid cyan; position:absolute; right:0px;">
-	</div>-->
-	<form action="" method="post">
+	<div id="column" style="float:right">
+	  <p>Alternatively, if you fill in the details below, Matt
+	    Bowrey will
+	    contact you as soon as possible.</p>
 	  <table>
 	    <tr>
-	      <td colspan="4">We'd love to talk to you about catering
-		your next event! Please feel free to contact Matt
-		Bowrey by any of the methods below:</td>
-	    </tr>
-	    <tr>
-	      <td colspan="2" style="padding: 15px;">email: <a href="mailto:matt@pascado.com.au">matt@pescado.com.au</a></td>
-	      <td colspan="2" style="padding: 15px;">mobile: +61 (0) 421 012 272</td>
-	    </tr>
-	    <tr>
-	      <td colspan="4">Alternatively, if you fill in the details below, Matt will
-		contact you as soon as possible.</td>
-	    <tr>
 	      <td id="title">Name:</td>
-	      <td colspan="2"><input type="text" name="name"
+	      <td><input type="text" name="name"
 				     autocomplete="on" /></td>
-	      <td>&nbsp;</td>
 	    </tr>
 	    <tr>
 	      <td id="title">Email:</td>
 	      <td><input type="email" name="email" autocomplete="on"
 			 /></td>
+	    </tr>
+	    <tr>
 	      <td id="title">Phone:</td>
 	      <td><input type="tel" name="phone"
 			 autocomplete="on" /></td>
@@ -51,6 +48,8 @@
 		  <option value="phone">Phone</option>
 		</select>
 	      </td>
+	    </tr>
+	    <tr>
 	      <td id="title">Preferred Contact Time:</td>
 	      <td>
 		<select name="time" style="width: 100%;">
@@ -66,19 +65,20 @@
 	      </td>
 	    </tr>
 	    <tr>
-	      <td colspan="4">Any Additional Information:</td>
+	      <td colspan="2">&nbsp;</td>
 	    </tr>
 	    <tr>
-	      <td colspan="4"><textarea id="area" name="info"
+	      <td colspan="2">Any Additional Information:</td>
+	    </tr>
+	    <tr>
+	      <td colspan="2"><textarea id="area" name="info"
 				   wrap="hard"></textarea></td>
 	    </tr>
 	    <tr>
-	      <td>&nbsp;</td>
 	      <td colspan="2"><input type="submit" style="width: auto;"/></td>
-	      <td >&nbsp;</td>
 	    </tr>
-	  </table>
-	</form>
+	    </table>
+	</div>
       </div>
       <div id="menu">
 	<h1>PESCADO CATERING</h1>
