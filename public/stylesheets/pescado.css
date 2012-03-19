@@ -60,15 +60,16 @@
     }
     
     #content td {
-	width: 25%;
+	width: 50%;
 	vertical-align: center;
+	text-align: left;
     }
     #content td#title {
 	text-align: right;
     }
     
-    #content input, select, textarea {
-	width:100%;
+    #content input, textarea, select {
+	width:75%;
 	background: transparent;
     }
 
@@ -76,16 +77,16 @@
 	height: 100px;
     }
 
-    #content input:focus, select:focus, textarea:focus {
+    #content select:focus, input:focus, textarea:focus {
 	outline-color: #B43F2D;
     }
 
-    #column {
-	width:50%;
+    #content .center {
+	text-align: center;
     }
 
-    #column p, li, table {
-	padding: 15px;
+    #content .autowidth {
+	width: auto;
     }
     
 /* Title and Menu */
