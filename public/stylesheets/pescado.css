@@ -19,14 +19,14 @@
 /*	border: solid blue;*/
 	position: relative;
         width: 974px;
-	height: 718px;
+	height: 850px;
         margin: 0px auto;
         background-color: #fff;
 	z-index: 0;
     }
     
     #fish {
-/*	border: solid yellow;*/
+/*	border: solid orange;*/
 	position: absolute;
 	left: 0px;
 	top: 0px;
@@ -46,13 +46,12 @@
 
     #content {
 /*	border: solid green;*/
-	position: relative;
-	top: 5%;
-	width: 90%;
-	height: 65%;
- 	z-index: 2;
-	margin: auto auto;
-	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 80%;
+	z-index: 2;
     }
 
     #content table {
@@ -90,23 +89,28 @@
     }
     
     #left {
-/*	border: solid green;*/
-	position: relative;
-	float: left;
-	top: 5%;
-	width: 45%;
-	height: 90%;
+/*	border: solid red;*/
+	position: absolute;
+	padding: 10px;
+	top: 0px;
+	left: 0px;
+	width: 47.5%;
+	height: 100%;
  	z-index: 3;
 	margin: auto auto;
 	text-align: center;
     }
 
     #right {
-	position: relative;
-	float: right;
-	top: 5%;
-	width: 45%;
-	height: 90%;
+/*	border: solid cyan;*/
+	position: absolute;
+	background-image: url("../images/7969_3.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	top: 0px;
+	right: 0px;
+	width: 47.5%;
+	height: 100%;
  	z-index: 3;
 	margin: auto auto;
 	text-align: center;
@@ -119,7 +123,7 @@
 	left: 0px;
 	bottom: 0px;
 	width: 100%;
-	height: 25%;
+	height: 20%;
 	z-index: 2;
     }
 
