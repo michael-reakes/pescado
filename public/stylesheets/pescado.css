@@ -12,14 +12,14 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: PetitaLight;
-	font-size: 14px;
+	font-size: 12px;
     }
 
     #page {
 /*	border: solid blue;*/
 	position: relative;
         width: 974px;
-	height: 700px;
+	height: 550px;
         margin: 0px auto;
         background-color: #fff;
 	z-index: 0;
