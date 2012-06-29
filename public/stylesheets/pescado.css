@@ -19,7 +19,7 @@
 /*	border: solid blue;*/
 	position: relative;
         width: 974px;
-	height: 550px;
+	height: 600px;
         margin: 0px auto;
         background-color: #fff;
 	z-index: 0;
@@ -91,7 +91,7 @@
     #left {
 /*	border: solid red;*/
 	position: absolute;
-	padding: 10px;
+	padding: 30px 10px 0px 10px;
 	top: 0px;
 	left: 0px;
 	width: 47.5%;
@@ -106,6 +106,7 @@
 	position: absolute;
 	background-image: url("../images/7969_3.jpg");
 	background-repeat: no-repeat;
+	background-size: auto 420px;
 	background-position: center center;
 	top: 0px;
 	right: 0px;
