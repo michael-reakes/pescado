@@ -12,7 +12,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: PetitaLight;
-	font-size: 13px;
+	font-size: 14px;
     }
 
     #page {
@@ -91,10 +91,10 @@
     #left {
 /*	border: solid red;*/
 	position: absolute;
-	padding: 30px 10px 0px 10px;
+	padding: 20px 10px 0px 0px;
 	top: 0px;
 	left: 0px;
-	width: 57.5%;
+	width: 65%;
 	height: 100%;
  	z-index: 3;
 	margin: auto auto;
@@ -110,7 +110,7 @@
 	background-position: center center;
 	top: 0px;
 	right: 0px;
-	width: 37.5%;
+	width: 30%;
 	height: 100%;
  	z-index: 3;
 	margin: auto auto;
