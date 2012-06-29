@@ -12,7 +12,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: PetitaLight;
-	font-size: 12px;
+	font-size: 13px;
     }
 
     #page {
@@ -94,7 +94,7 @@
 	padding: 30px 10px 0px 10px;
 	top: 0px;
 	left: 0px;
-	width: 47.5%;
+	width: 57.5%;
 	height: 100%;
  	z-index: 3;
 	margin: auto auto;
@@ -110,7 +110,7 @@
 	background-position: center center;
 	top: 0px;
 	right: 0px;
-	width: 47.5%;
+	width: 37.5%;
 	height: 100%;
  	z-index: 3;
 	margin: auto auto;
