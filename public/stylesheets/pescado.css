@@ -15,46 +15,67 @@
 	font-size: 14px;
     }
 
-    #page {
-/*	border: solid blue;*/
+    .page {
 	position: relative;
-        width: 974px;
-	height: 600px;
-        margin: 0px auto;
+        width: 1266px;
+	height: 668px;
+        margin: 20px auto;
         background-color: #fff;
 	z-index: 0;
     }
-    
-    #fish {
-/*	border: solid orange;*/
+
+
+    .content {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	height: 100%;
-	background-image: url("../images/fish.gif");
-	background-size: auto 200px;
-	background-repeat: no-repeat;
-	background-position: center center;
+	height: 534px;
 	z-index: 1;
-
     }
 
-    .fade {
-	opacity: 0.1;
-    }
-
-    #content {
-/*	border: solid green;*/
-	position: absolute;
-	left: 0px;
-	top: 0px;
+    .content .about {
 	width: 100%;
-	height: 80%;
+	heigth: 100%;
 	z-index: 2;
     }
 
-    #content table {
+    .content .about .left {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 851px;
+	height: 494px;
+	padding: 20px 30px 20px 30px;
+	z-index: 3;
+	background-color: #F05F46;
+	text-align: left;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: #FFF;
+    }
+
+    .content .about .left .title {
+	font-size: 24pt;
+    }
+
+    .content .about .left p {
+	font-size: 12pt;
+    }
+
+    .content .about .right {
+	position: absolute;
+	background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
+	background-repeat: no-repeat;
+	background-size: 355px 534px;
+	background-position: center right;
+	top: 0px;
+	right: 0px;
+	width: 355px;
+	height: 534px;
+ 	z-index: 3;
+    }
+
+/*    #content table {
 	width:100%;
     }
     
@@ -86,50 +107,19 @@
 
     #content .autowidth {
 	width: auto;
-    }
-    
-    #left {
-/*	border: solid red;*/
-	position: absolute;
-	padding: 20px 10px 0px 0px;
-	top: 0px;
-	left: 0px;
-	width: 65%;
-	height: 100%;
- 	z-index: 3;
-	margin: auto auto;
-	text-align: center;
-    }
-
-    #right {
-/*	border: solid cyan;*/
-	position: absolute;
-	background-image: url("../images/7969_3.jpg");
-	background-repeat: no-repeat;
-	background-size: auto 420px;
-	background-position: center center;
-	top: 0px;
-	right: 0px;
-	width: 30%;
-	height: 100%;
- 	z-index: 3;
-	margin: auto auto;
-	text-align: center;
-    }
-
-/* Title and Menu */
-    #menu {
-/*	border: solid purple;*/
+    }    
+*/
+    .menu {
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
-	width: 100%;
-	height: 20%;
-	z-index: 2;
+	width: 1206px;
+	height: 74px;
+	padding: 30px;
+	z-index: 3;
     }
 
-    #menu h1 {
-/*	border: solid gray;*/
+    .menu h1 {
 	position: relative;
 	top: 0px;
 	margin: 0px auto;
@@ -140,55 +130,49 @@
 	text-align: center;
     }
 
-    #menu hr {
-/*	border: solid pink;*/
+    .menu hr {
 	position: relative;
-	top: 23px;
+	top: 5px;
 	width: 200px;
-	height: 2px;
-	background-color: #000;
-	color: #000;
+	height: 1px;
+	background-color: black;
+	border: black;
     }
 
-    #menu table {
-/*	border: solid red;*/
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	margin: 0px auto;
-    }
-
-    #menu td {
-	width: 25%;
+    .menu .items {
+	padding-top: 15px;
+	width: 286px;
+	display: inline-block;
 	text-align: center;
-	font-size: 18px;
+	font-size:18px;
     }
 
-    #menu a {
+    .menu .items a {
 	text-decoration: none;
 	transition-property: font-family;
     }
 
-    #menu .active {
-	font-family: PetitaBold;
-    }
-
-    #menu a:hover {
+    .menu .items a:hover {
 	font-family: PetitaBold;
     }
     
-    .red {
+    .menu .items .active {
+	font-family: PetitaBold;
+    }
+
+
+    .menu .items .red {
 	color: #F05F46;
     }
 
-    .maroon {
+    .menu .items .maroon {
 	color: #B43F2D;
     }
 
-    .orange {
+    .menu .items .orange {
 	color: #E07633;
     }
 
-    .yellow {
+    .menu .items .yellow {
 	color: #EDB04A;
     }
