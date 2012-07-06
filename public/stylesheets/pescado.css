@@ -17,7 +17,7 @@
 
     .page {
 	position: relative;
-        width: 1266px;
+        width: 1024px;
 	height: 668px;
         margin: 20px auto;
         background-color: #fff;
@@ -44,7 +44,7 @@
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 851px;
+	width: 609px;
 	height: 494px;
 	padding: 20px 30px 20px 30px;
 	z-index: 3;
@@ -54,12 +54,13 @@
 	color: #FFF;
     }
 
-    .content .about .left .title {
-	font-size: 24pt;
-    }
-
     .content .about .left p {
 	font-size: 12pt;
+	margin: 12px 0px;
+    }
+
+    .content .about .left .title {
+	font-size: 20pt;
     }
 
     .content .about .right {
@@ -67,7 +68,7 @@
 	background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
 	background-repeat: no-repeat;
 	background-size: 355px 534px;
-	background-position: center right;
+	background-position: center center;
 	top: 0px;
 	right: 0px;
 	width: 355px;
@@ -113,9 +114,9 @@
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
-	width: 1206px;
+	width: 100%;
 	height: 74px;
-	padding: 30px;
+	padding: 30px 20px;
 	z-index: 3;
     }
 
@@ -141,7 +142,7 @@
 
     .menu .items {
 	padding-top: 15px;
-	width: 286px;
+	width: 246px;
 	display: inline-block;
 	text-align: center;
 	font-size:18px;
