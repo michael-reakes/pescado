@@ -9,7 +9,7 @@
 }
 
     body {
-	margin: 0px;
+	margin: 20px 0px;
 	padding: 0px;
     }
 
@@ -17,7 +17,7 @@
 	position: relative;
         width: 1024px;
 	height: 668px;
-        margin: 20px auto;
+        margin: auto auto;
         background-color: #fff;
 	z-index: 0;
     }
@@ -28,7 +28,6 @@
 	top: 0px;
 	width: 100%;
 	height: 534px;
-	margin: auto auto;
 	z-index: 1;
     }
 
@@ -110,7 +109,6 @@
 */
     .menu {
 	position: absolute;
-	left: 0px;
 	bottom: 0px;
 	width: 100%;
 	height: 74px;
@@ -144,6 +142,7 @@
 	display: inline-block;
 	text-align: center;
 	font-size:18px;
+	font-family: PetitaLight;
     }
 
     .menu .items a {
