@@ -9,7 +9,7 @@
 }
 
     body {
-	margin: 20px 0px;
+	margin-top: 20px;
 	padding: 0px;
     }
 
@@ -17,7 +17,7 @@
 	position: relative;
         width: 1024px;
 	height: 668px;
-        margin: auto auto;
+        margin: 0px auto;
         background-color: #fff;
 	z-index: 0;
     }
