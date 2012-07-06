@@ -47,7 +47,7 @@
 	z-index: 3;
 	background-color: #F05F46;
 	text-align: left;
-	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Calibri/*, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif*/;
 	color: #FFF;
     }
 
