@@ -4,30 +4,18 @@
     <meta charset="UTF-8">
     <title>Pescado | Home</title>
     <link rel="stylesheet" type="text/css" href="stylesheets/pescado.css"></link>
-    <script type="text/javascript" src="javascripts/pescado.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-	$("#about").click(function() {
-	    $("#cf2 img.top").toggleClass("transparent");
-	});
-    });
-    </script>
   </head>
   <body>
-    <div id="page">
-      <div id="fish">&nbsp;</div>
-      <div id="content">&nbsp;</div>
-      <div id="menu">
+    <div class="page">
+      <div class="content" style="background-image: url('../images/fish.gif'); background-repeat: no-repeat; background-position: center center;">
+      </div>
+      <div class="menu">
 	<h1>PESCADO CATERING</h1>
 	<hr/>
-	<table>
-	  <tr>
-	    <td><a href="about.html" class="red">ABOUT</a></td>
-	    <td><a href="testimonials.html" class="maroon">TESTIMONIALS</a></td>
-	    <td><a href="experience.html" class="orange">EXPERIENCE</a></td>
-	    <td><a href="contact.html" class="yellow">CONTACT</a></td>
-	  </tr>
-	</table>
+	<div class="items"><a href="about.html" 	class ="red">ABOUT</a></div>
+	<div class="items"><a href="testimonials.html" class="maroon">TESTIMONIALS</a></div>
+	<div class="items"><a href="experience.html" class="orange">FOOD FOR THOUGHT</a></div>
+	<div class="items"><a href="contact.html" class="yellow">CONTACT</a></div>
       </div>
     </div>
   </body>

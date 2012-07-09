@@ -31,6 +31,12 @@
 	z-index: 1;
     }
 
+    .content .fish {
+	background-image: url('../images/fish.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+    }
+
     .content .about {
 	background-color: #F05F46;
 	width: 100%;
