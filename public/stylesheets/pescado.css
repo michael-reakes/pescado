@@ -32,6 +32,7 @@
     }
 
     .content .about {
+	background-color: #F05F46;
 	width: 100%;
 	heigth: 100%;
 	z-index: 2;
@@ -45,7 +46,7 @@
 	height: 514px;
 	padding: 10px 20px;
 	z-index: 3;
-	background-color: #F05F46;
+	background-color: inherit;
 	text-align: left;
 	font-family: Calibri/*, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif*/;
 	color: #FFF;
@@ -71,6 +72,27 @@
 	width: 355px;
 	height: 534px;
  	z-index: 4;
+    }
+
+    .content .testimonials {
+	width: 100%;
+	heigth: 100%;
+	background-color: #B43F2D;
+	z-index: 2;
+    }
+
+    .content .experience {
+	width: 100%;
+	heigth: 100%;
+	background-color: #E07633;
+	z-index: 2;
+    }
+
+    .content .contact {
+	width: 100%;
+	heigth: 100%;
+	background-color: #EDB04A;
+	z-index: 2;
     }
 
 /*    #content table {
