@@ -8,41 +8,59 @@
     src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
 }
 
-    body {
-	margin-top: 20px;
-	padding: 0px;
+body {
+    margin-top: 20px;
+    padding: 0px;
+}
+
+#page {
+    position: relative;
+    width: 1024px;
+    height: 668px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+
+#content {
+    height: 534px;
+}
+
+.fish {
+    background-image: url('../images/fish.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about {
+    background-color: #F05F46;
+}
+
+.about .right {
+    position: relative;
+    float: right;
+    width: 34%;
+    height: inherit;
+    background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about p {
+    position: relative;
+    float: left;
+    left: 2%;
+    width: 62%;
+    font-size: 12pt;
+    margin: 10px 0px;
+    text-align: left;
+    font-family: Calibri/*, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif*/;
+    color: #FFF;
     }
 
-    .page {
-	position: relative;
-        width: 1024px;
-	height: 668px;
-        margin: 0px auto;
-        background-color: #fff;
-	z-index: 0;
-    }
-
-
-    .content {
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 534px;
-	z-index: 1;
-    }
-
-    .content .fish {
-	background-image: url('../images/fish.gif');
-	background-repeat: no-repeat;
-	background-position: center center;
-    }
-
-    .content .about {
-	background-color: #F05F46;
-	width: 100%;
-	heigth: 100%;
-	z-index: 2;
-    }
+.about .title {
+    font-size: 20pt;
+}
 
     .content .about .left {
 	position: absolute;
@@ -53,38 +71,21 @@
 	padding: 10px 20px;
 	z-index: 3;
 	background-color: inherit;
-	text-align: left;
-	font-family: Calibri/*, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif*/;
-	color: #FFF;
     }
 
-    .content .about .left p {
-	font-size: 12pt;
-	margin: 10px 0px;
-    }
-
-    .content .about .left .title {
-	font-size: 20pt;
-    }
-
-    .content .about .right {
-	position: absolute;
-	background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
-	background-repeat: no-repeat;
-	background-size: 355px 534px;
-	background-position: center center;
-	top: 0px;
-	right: 0px;
-	width: 355px;
-	height: 534px;
- 	z-index: 4;
-    }
 
     .content .testimonials {
 	width: 100%;
 	heigth: 100%;
 	background-color: #B43F2D;
 	z-index: 2;
+    }
+
+    .content .testimonials .quadrant {
+	background-color: inherit;
+	width: 512px;
+	display: inline;
+
     }
 
     .content .experience {
@@ -135,7 +136,7 @@
 	width: auto;
     }    
 */
-    .menu {
+    #menu {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
@@ -144,7 +145,7 @@
 	z-index: 3;
     }
 
-    .menu h1 {
+    #menu h1 {
 	position: relative;
 	top: 0px;
 	margin: 0px auto;
@@ -155,7 +156,7 @@
 	text-align: center;
     }
 
-    .menu hr {
+    #menu hr {
 	position: relative;
 	top: 5px;
 	width: 200px;
@@ -164,7 +165,7 @@
 	border: black;
     }
 
-    .menu .items {
+    #menu .items {
 	padding-top: 15px;
 	width: 246px;
 	display: inline-block;
@@ -173,32 +174,32 @@
 	font-family: PetitaLight;
     }
 
-    .menu .items a {
+    #menu .items a {
 	text-decoration: none;
 	transition-property: font-family;
     }
 
-    .menu .items a:hover {
+    #menu .items a:hover {
 	font-family: PetitaBold;
     }
     
-    .menu .items .active {
+    #menu .items .active {
 	font-family: PetitaBold;
     }
 
 
-    .menu .items .red {
+    #menu .items .red {
 	color: #F05F46;
     }
 
-    .menu .items .maroon {
+    #menu .items .maroon {
 	color: #B43F2D;
     }
 
-    .menu .items .orange {
+    #menu .items .orange {
 	color: #E07633;
     }
 
-    .menu .items .yellow {
+    #menu .items .yellow {
 	color: #EDB04A;
     }
