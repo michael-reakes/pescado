@@ -8,9 +8,20 @@
     src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Calibri;
+    src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/Calibri.ttf') format('truetype');
+}
+
 body {
     margin-top: 20px;
     padding: 0px;
+}
+
+h1 {
+    font-size: 20pt;
+    margin: 0px;
+    padding: 10px 0px;
 }
 
 #page {
@@ -24,6 +35,21 @@ body {
 
 #content {
     height: 534px;
+}
+
+#content h1, #content p {
+    color: #FFF;
+    font-family: Calibri, Helvetica, Arial;
+    left: 2%;
+    position: relative;
+    text-align: left;
+    width: 96%;
+}
+
+#content p {
+    font-size: 12pt;
+    margin: 0px;
+    padding: 5px 0px;
 }
 
 .fish {
@@ -46,160 +72,90 @@ body {
     background-position: center center;
 }
 
-.about p {
-    position: relative;
-    float: left;
-    left: 2%;
-    width: 62%;
-    font-size: 12pt;
-    margin: 10px 0px;
-    text-align: left;
-    font-family: Calibri/*, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif*/;
-    color: #FFF;
-    }
-
-.about .title {
-    font-size: 20pt;
+.about p, .about h1 {
+    width: 62% !important;
 }
 
-    .content .about .left {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 630px;
-	height: 514px;
-	padding: 10px 20px;
-	z-index: 3;
-	background-color: inherit;
-    }
+.testimonials {
+    background-color: #B43F2D;
+}
+
+.testimonials p {
+    float: left;
+    padding: 35px !important;
+    width: 40% !important; 
+}
 
 
-    .content .testimonials {
-	width: 100%;
-	heigth: 100%;
-	background-color: #B43F2D;
-	z-index: 2;
-    }
-
-    .content .testimonials .quadrant {
-	background-color: inherit;
-	width: 512px;
-	display: inline;
-
-    }
-
-    .content .experience {
-	width: 100%;
-	heigth: 100%;
-	background-color: #E07633;
-	z-index: 2;
-    }
-
-    .content .contact {
-	width: 100%;
-	heigth: 100%;
-	background-color: #EDB04A;
-	z-index: 2;
-    }
-
-/*    #content table {
-	width:100%;
-    }
-    
-    #content td {
-	width: 50%;
-	vertical-align: center;
-	text-align: left;
-    }
-    #content td#title {
-	text-align: right;
-    }
-    
-    #content input, textarea, select {
-	width:75%;
-	background: transparent;
-    }
-
-    #content textarea {
-	height: 100px;
-    }
-
-    #content select:focus, input:focus, textarea:focus {
-	outline-color: #B43F2D;
-    }
-
-    #content .center {
-	text-align: center;
-    }
-
-    #content .autowidth {
-	width: auto;
-    }    
-*/
-    #menu {
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	height: 74px;
-	padding: 30px 20px;
-	z-index: 3;
-    }
-
-    #menu h1 {
-	position: relative;
-	top: 0px;
-	margin: 0px auto;
-	font-family: PetitaBold, Helvetica, Arial;
-	font-size: 20px;
-	letter-spacing: 10px;
-	color: #000;
-	text-align: center;
-    }
-
-    #menu hr {
-	position: relative;
-	top: 5px;
-	width: 200px;
-	height: 1px;
-	background-color: black;
-	border: black;
-    }
-
-    #menu .items {
-	padding-top: 15px;
-	width: 246px;
-	display: inline-block;
-	text-align: center;
-	font-size:18px;
-	font-family: PetitaLight;
-    }
-
-    #menu .items a {
-	text-decoration: none;
-	transition-property: font-family;
-    }
-
-    #menu .items a:hover {
-	font-family: PetitaBold;
-    }
-    
-    #menu .items .active {
-	font-family: PetitaBold;
-    }
 
 
-    #menu .items .red {
-	color: #F05F46;
-    }
+.experience {
+    background-color: #E07633;
+}
 
-    #menu .items .maroon {
-	color: #B43F2D;
-    }
+.contact {
+    background-color: #EDB04A;
+}
 
-    #menu .items .orange {
-	color: #E07633;
-    }
+#menu {
+    position: relative;
+    float: bottom;
+    height: 114px;
+}
 
-    #menu .items .yellow {
-	color: #EDB04A;
-    }
+#menu h1 {
+    position: relative;
+    width: 100%;
+    font-family: PetitaBold, Helvetica, Arial;
+    letter-spacing: 10px;
+    color: #000;
+    text-align: center;
+}
+
+#menu hr {
+    position: relative;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    border: black;
+}
+
+#menu .items {
+    position: relative;
+    padding-top: 15px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size:18px;
+    font-family: PetitaLight;
+}
+
+#menu .items a {
+    text-decoration: none;
+    transition-property: font-family;
+}
+
+#menu .items a:hover {
+    font-family: PetitaBold;
+}
+
+#menu .items .active {
+    font-family: PetitaBold;
+}
+
+
+#menu .items .red {
+    color: #F05F46;
+}
+
+#menu .items .maroon {
+    color: #B43F2D;
+}
+
+#menu .items .orange {
+    color: #E07633;
+}
+
+#menu .items .yellow {
+    color: #EDB04A;
+}
