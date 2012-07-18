@@ -1,7 +1,10 @@
 @font-face {
-    font-family: 'PetitaBold';
-    src: url('../images/PetitaBold.eot?') format('eot'), url('../images/PetitaBold.woff') format('woff'), url('../images/PetitaBold.ttf') format('truetype');
-}
+	font-family: PetitaBold;
+	src: url('../images/PetitaBold.eot?#iefix') format('embedded-opentype'), 
+	     url('../images/PetitaBold.woff') format('woff'), 
+	     url('../images/PetitaBold.ttf')  format('truetype'),
+	     url('../images/PetitaBold.svg#svgFontName') format('svg');
+	}
 
 @font-face {
     font-family: 'PetitaLight';
