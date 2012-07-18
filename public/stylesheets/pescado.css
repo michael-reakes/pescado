@@ -1,11 +1,11 @@
 @font-face {
     font-family: PetitaBold;
-    src: url('../images/PetitaBold.eot?') format('eot'), url('../images/PetitaBold.woff') format('woff'), url('../images/PetitaBold.ttf') format('truetype');
+    src: url('../images/PetitaBold.eot') format('eot'), url('../images/PetitaBold.woff') format('woff'), url('../images/PetitaBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: PetitaLight;
-    src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
+    src: url('../images/PetitaLight.eot') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
 }
 
 @font-face {
