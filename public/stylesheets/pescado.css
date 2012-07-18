@@ -1,21 +1,27 @@
 @font-face {
 	font-family: PetitaBold;
-	src: url('../images/PetitaBold.eot?#iefix') format('embedded-opentype'), 
-	     url('../images/PetitaBold.woff') format('woff'), 
-	     url('../images/PetitaBold.ttf')  format('truetype'),
-	     url('../images/PetitaBold.svg#svgFontName') format('svg');
+	src: url('petitabold-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('petitabold-webfont.woff') format('woff'), 
+	     url('petitabold-webfont.ttf')  format('truetype'),
+	     url('petitabold-webfont.svg#svgFontName') format('svg');
 	}
 
 @font-face {
-    font-family: 'PetitaLight';
-    src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
-}
-/*
+	font-family: PetitaLight;
+	src: url('petitalight-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('petitalight-webfont.woff') format('woff'), 
+	     url('petitalight-webfont.ttf')  format('truetype'),
+	     url('petitalight-webfont.svg#svgFontName') format('svg');
+	}
+
 @font-face {
-    font-family: Calibri;
-    src: url('../images/Calibri.eot?') format('eot'), url('../images/Calibri.woff') format('woff'), url('../images/Calibri.ttf') format('truetype');
-}
-*/
+	font-family: Calibri;
+	src: url('../images/Calibri.eot?#iefix') format('embedded-opentype'), 
+	     url('../images/Calibri.woff') format('woff'), 
+	     url('../images/Calibri.ttf')  format('truetype'),
+	     url('../images/Calibri.svg#svgFontName') format('svg');
+	}
+
 body {
     margin-top: 20px;
     padding: 0px;
@@ -133,7 +139,7 @@ h1 {
     font-family: PetitaLight;
 }
 
-#menu .items a {
+#menu a {
     text-decoration: none;
     transition-property: font-family;
 }
