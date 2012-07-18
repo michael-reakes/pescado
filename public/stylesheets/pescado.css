@@ -1,16 +1,16 @@
 @font-face {
     font-family: PetitaBold;
-    src: url('../images/PetitaBold.eot') format('eot'), url('../images/PetitaBold.woff') format('woff'), url('../images/PetitaBold.ttf') format('truetype');
+    src: url('../images/PetitaBold.eot?') format('eot'), url('../images/PetitaBold.woff') format('woff'), url('../images/PetitaBold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: PetitaLight;
-    src: url('../images/PetitaLight.eot') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
+    src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
 }
 
 @font-face {
     font-family: Calibri;
-    src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/Calibri.ttf') format('truetype');
+    src: url('../images/Calibri.eot?') format('eot'), url('../images/Calibri.woff') format('woff'), url('../images/Calibri.ttf') format('truetype');
 }
 
 body {
@@ -39,7 +39,7 @@ h1 {
 
 #content h1, #content p {
     color: #FFF;
-    font-family: Calibri, Helvetica, Arial;
+    font-family: Calibri;
     left: 2%;
     position: relative;
     text-align: left;
@@ -106,7 +106,7 @@ h1 {
 #menu h1 {
     position: relative;
     width: 100%;
-    font-family: PetitaBold, Helvetica, Arial;
+    font-family: PetitaBold;
     letter-spacing: 10px;
     color: #000;
     text-align: center;
