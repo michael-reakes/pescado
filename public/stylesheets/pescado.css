@@ -1,17 +1,17 @@
 @font-face {
 	font-family: PetitaBold;
-	src: url('petitabold-webfont.eot?#iefix') format('embedded-opentype'), 
-	     url('petitabold-webfont.woff') format('woff'), 
-	     url('petitabold-webfont.ttf')  format('truetype'),
-	     url('petitabold-webfont.svg#svgFontName') format('svg');
+	src: url('petitabold.eot?#iefix') format('embedded-opentype'), 
+	     url('petitabold.woff') format('woff'), 
+	     url('petitabold.ttf')  format('truetype'),
+	     url('petitabold.svg#svgFontName') format('svg');
 	}
 
 @font-face {
 	font-family: PetitaLight;
-	src: url('petitalight-webfont.eot?#iefix') format('embedded-opentype'), 
-	     url('petitalight-webfont.woff') format('woff'), 
-	     url('petitalight-webfont.ttf')  format('truetype'),
-	     url('petitalight-webfont.svg#svgFontName') format('svg');
+	src: url('petitalight.eot?#iefix') format('embedded-opentype'), 
+	     url('petitalight.woff') format('woff'), 
+	     url('petitalight.ttf')  format('truetype'),
+	     url('petitalight.svg#svgFontName') format('svg');
 	}
 
 @font-face {
