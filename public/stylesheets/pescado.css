@@ -7,12 +7,12 @@
     font-family: PetitaLight;
     src: url('../images/PetitaLight.eot?') format('eot'), url('../images/PetitaLight.woff') format('woff'), url('../images/PetitaLight.ttf') format('truetype');
 }
-
+/*
 @font-face {
     font-family: Calibri;
     src: url('../images/Calibri.eot?') format('eot'), url('../images/Calibri.woff') format('woff'), url('../images/Calibri.ttf') format('truetype');
 }
-
+*/
 body {
     margin-top: 20px;
     padding: 0px;
@@ -82,7 +82,7 @@ h1 {
 
 .testimonials p {
     float: left;
-    padding: 35px !important;
+    padding: 30px 40px !important;
     width: 40% !important; 
 }
 
