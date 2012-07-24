@@ -46,7 +46,7 @@ h1 {
     height: 534px;
 }
 
-#content h1, #content p {
+#content h1, #content p, #content label, #content input {
     color: #FFF;
     font-family: Calibri;
     left: 2%;
@@ -104,6 +104,11 @@ h1 {
 
 .contact {
     background-color: #EDB04A;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #FFF;
 }
 
 #menu {
