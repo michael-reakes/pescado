@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Pescado | Contact</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.5.1/build/cssreset-context/cssreset-context-min.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/pescado.css"></link>
     <script type="text/javascript" src="javascripts/pescado.js"></script>
   </head>
@@ -14,76 +15,47 @@
 	  please email <a
 	href="mailto:matt@pascado.com.au">matt@pescado.com.au</a> or
 	call <a href:"tel:61421012272">+61 (0) 421 012 272</a>.</p>
-<!--
+
 	<p>Alternatively, you can submit an enquiry using the form
 	  below.</p>
+<br/>
 	<form>
-	  <label for="name">Name: </label>
-	  <input type="text" name="name" id="name" autocomplete="on" />
-	  <label for="email">Email: </label>
-	  <input type="email" name="email" id="email" autocomplete="on" />
-	  <label for="phone">Phone: </label>
-	  <input type="tel" name="phone" id="phone" autocomplete="on" />
-	  </form>
-	  <table>
-	    <tr>
-	      <td id="title">Name:</td>
-	      <td><input type="text" name="name"
-			 autocomplete="on" /></td>
-	    </tr>
-	    <tr>
-	      <td id="title">Email:</td>
-	      <td><input type="email" name="email" autocomplete="on"
-			 /></td>
-	    </tr>
-	    <tr>
-	      <td id="title">Phone:</td>
-	      <td><input type="tel" name="phone"
-			 autocomplete="on" /></td>
-	    </tr>
-	    <tr>
-	      <td id="title">Preferred Contact Method:</td>
-	      <td>
-		<select name="method">
-		  <option value="none">No preference</option>
-		  <option value="email">Email</option>
-		  <option value="phone">Phone</option>
-		</select>
-	      </td>
-	    </tr>
-	    <tr>
-	      <td id="title">Preferred Contact Time:</td>
-	      <td>
-		<select name="time">
-		  <option value="any">Anytime</option>
-		  <option value="before">Weekday - before Business
-		    Hours</option>
-		  <option value="during">Weekday - during Business
-		    Hours</option>
-		  <option value="after">Weekday - after Business
-		    Hours</option>
-		  <option value="end">Weekend</option>
-		</select>
-	      </td>
-	    </tr>
-	    <tr>
-	      <td colspan="2">&nbsp;</td>
-	    </tr>
-	    <tr>
-	      <td colspan="2" class="center">Any Additional Information:</td>
-	    </tr>
-	    <tr>
-	      <td colspan="2"  class="center"><textarea name="info" wrap="hard"></textarea></td>
-	    </tr>
-	    <tr>
-	      <td colspan="2" class="center"><input type="submit"
-						    class="autowidth" /></td>
-	    </tr>
-	  </table>
--->
+	  <div style="margin-left:2%; width:47%; padding: 5px 0px; position: relative; float:left; vertical-align:middle;">
+ 	    <label for="name" style="vertical-align:middle;">Email: </label>
+	  <span style="vertical-align:middle;">
+	    <input type="text" name="name" id="name" autocomplete="on" style="vertical-align:middle;"/>
+	  </span>
+	  </div>
+	  <div style="margin-left:2%; width:47%; padding: 5px 0px; position: relative; float:left; vertical-align:middle;">
+ 	    <label for="email" style="vertical-align:middle;">Email: </label>
+	  <span style="vertical-align:middle;">
+	    <input type="email" name="email" id="email" autocomplete="on" style="vertical-align:middle;"/>
+	  </span>
+	  </div>
+	  <div style="margin-left:2%; width:47%; padding: 5px 0px; position: relative; float:left;">
+	    <label for="phone">Phone: </label>
+	    <span>
+	      <input type="tel" name="phone" id="phone" autocomplete="on" />
+	    </span>
+	  </div>
+	  <div style="margin-left:2%; width:47%; padding: 5px 0px; position: relative; float:left;">
+	    <label for="method">Preferred Contact Method: </label>
+	    <span>
+	      <select name="method" id="method">
+		<option value="email">Email</option>
+		<option value="phone">Phone</option>
+	      </select>
+	    </span>
+	    </div>
+	  <div style="margin-left:2%; width:96%; padding: 5px 0px; position: relative; float:left;">
+	    <label for="additional" style="width: 100%;">Any Additional Information:</label>
+	    <textarea name="info" rows="15" wrap="hard" style="width: 100%; "></textarea>
+	    <input type="submit" style="width:auto; display: block; margin: 10px auto; text-align: center;" />
+	  </div>
+	</form>
       </div>
       <div id="menu">
-	<a href="index"><h1> PESCADO CATERING </h1></a>
+	<a href="index.html"><h1> PESCADO CATERING </h1></a>
 	<hr/>
 	<div class="items"><a href="about.html" class ="red">ABOUT</a></div>
 	<div class="items"><a href="testimonials.html" class="maroon">TESTIMONIALS</a></div>

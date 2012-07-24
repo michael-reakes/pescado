@@ -21,6 +21,10 @@
 	     url('calibri.ttf')  format('truetype'),
 	     url('calibri.svg#svgFontName') format('svg');
 	}
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     margin-top: 20px;
@@ -46,16 +50,15 @@ h1 {
     height: 534px;
 }
 
-#content h1, #content p, #content label, #content input {
+#content h1, #content p, #content label {
     color: #FFF;
     font-family: Calibri;
     left: 2%;
     position: relative;
     text-align: left;
-    width: 96%;
 }
 
-#content p {
+#content p, #content label {
     font-size: 12pt;
     margin: 0px;
     padding: 5px 0px;
@@ -111,6 +114,41 @@ h1 {
     color: #FFF;
 }
 
+.contact p {
+    font-size: 14pt !important;
+    width: 96%;
+}
+/*
+.contact .column {
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 47%;
+}
+*/
+.contact label {
+    font-size: 14pt !important;
+    float: left;
+    left: 0% !important;
+    padding: 0px;
+    padding: 10px 5px 10px 0px;
+}
+
+.contact span {
+    display: block;
+    overflow: hidden;
+    padding: 0px 5px 0px 5px;
+}
+
+.contact input, .contact select {
+    color: #000;
+    font-family: Calibri;
+    font-size: 12pt;
+    width: 100%;
+}
+
 #menu {
     position: relative;
     float: bottom;
@@ -127,11 +165,12 @@ h1 {
 }
 
 #menu hr {
-    position: relative;
-    width: 200px;
-    height: 1px;
     background-color: black;
     border: black;
+    height: 1px;
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
 }
 
 #menu .items {
