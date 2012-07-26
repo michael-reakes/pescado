@@ -74,17 +74,26 @@ h1 {
     background-color: #F05F46;
 }
 
-.about .right {
+.about .right, .contact .right {
     position: relative;
     float: right;
     width: 34%;
     height: 534px;
-    background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.about p, .about h1 {
+.about .right {
+    background-image: url("../images/Matthew_Bowrey_7969 _HR.jpg");
+}
+
+.contact .right {
+    background-image: url("../images/6a.jpg");
+}
+
+
+
+.about p, .about h1, .contact p, .contact h1 {
     width: 62% !important;
 }
 
