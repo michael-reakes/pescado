@@ -108,13 +108,21 @@ h1 {
 
 #gallery {
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: visible;            
+}
+
+#gallery ul {
+    padding: 0px 75px;
 }
 
 #gallery ul li {
-    list-style:none; display:inline-table; padding:10px;
+    list-style:none; 
+    display:inline-table;
+    padding:4px 31px 4px 31px;
+}
+
+#gallery .vertical {
+    padding-left: 72px;
+    padding-right: 72px;
 }
 
 .contact {
