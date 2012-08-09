@@ -116,13 +116,17 @@ h1 {
 
 #gallery ul li {
     list-style:none; 
-    display:inline-table;
+    display:inline-block;
     padding:4px 31px 4px 31px;
 }
 
 #gallery .vertical {
     padding-left: 72px;
     padding-right: 72px;
+}
+
+#gallery a {
+    text-decoration: none;
 }
 
 .contact {
