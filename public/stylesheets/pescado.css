@@ -115,9 +115,9 @@ h1 {
 }
 
 #gallery ul li {
-    list-style:none; 
-    display:inline-block;
-    padding:4px 31px 4px 31px;
+    list-style: none; 
+    display: inline;
+    padding: 4px 31px 4px 31px;
 }
 
 #gallery .vertical {
