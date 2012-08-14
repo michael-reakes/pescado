@@ -117,7 +117,6 @@ h1 {
 #gallery ul li {
     list-style: none; 
     display: inline-block;
-    zoom: 1;
     *display: inline;
     padding: 4px 31px 4px 31px;
 
