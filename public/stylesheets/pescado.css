@@ -127,7 +127,8 @@ h1 {
 }
 
 #gallery ul li a {
-    text-decoration: none;
+/*    text-decoration: none;*/
+    color: #E07633;
 }
 
 .contact {
