@@ -126,9 +126,14 @@ h1 {
     padding-right: 72px;
 }
 
-#gallery ul li a:link {
+#gallery ul li a {
     text-decoration: none;
 }
+
+#gallery ul li a img {
+    border: 0;
+}
+
 
 .contact {
     background-color: #EDB04A;
