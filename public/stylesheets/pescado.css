@@ -41,6 +41,25 @@ h1 {
     background-color: #fff;
 }
 
+#page .main {
+    width: 100%;
+    font-family: PetitaBold;
+    letter-spacing: 10px;
+    color: #000;
+    text-align: center;
+    top: 75%;
+}
+
+#page hr {
+    background-color: black;
+    border: black;
+    height: 1px;
+    margin: 0px auto;
+    position: relative;
+    width: 200px;
+    top: 82%;
+}
+
 
 #content {
     height: 534px;
@@ -58,6 +77,10 @@ h1 {
     font-size: 12pt;
     margin: 0px;
     padding: 5px 0px;
+}
+
+#content h1 {
+    font-weight: lighter;
 }
 
 .fish {
