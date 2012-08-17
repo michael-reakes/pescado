@@ -50,7 +50,7 @@ h1 {
     top: 75%;
 }
 
-#page hr {
+#page .line {
     background-color: black;
     border: black;
     height: 1px;
@@ -216,6 +216,7 @@ h1 {
     margin: 0px auto;
     position: relative;
     width: 200px;
+    position: relative;
 }
 
 #menu .items {
