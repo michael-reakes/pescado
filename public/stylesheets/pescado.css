@@ -90,7 +90,7 @@ h1 {
 }
 
 .about {
-    background-color: #000/*#F05F46*/;
+    background-color: #F05F46;
 }
 
 .about .right, .contact .right {
@@ -115,7 +115,7 @@ h1 {
 }
 
 .testimonials {
-    background-color: #000/*#B43F2D*/;
+    background-color: #B43F2D;
 }
 
 .testimonials p {
@@ -125,7 +125,7 @@ h1 {
 }
 
 .experience {
-    background-color: #000/*#E07633*/;
+    background-color: #E07633;
 }
 
 
@@ -160,7 +160,7 @@ h1 {
 
 
 .contact {
-    background-color: #000/*#EDB04A*/;
+    background-color: #EDB04A;
 }
 
 .contact a {
@@ -243,17 +243,17 @@ h1 {
 
 
 #menu .items .red {
-    color: #000/*#F05F46*/;
+    color: #F05F46;
 }
 
 #menu .items .maroon {
-    color: #000/*#B43F2D*/;
+    color: #B43F2D;
 }
 
 #menu .items .orange {
-    color: #000/*#E07633*/;
+    color: #E07633;
 }
 
 #menu .items .yellow {
-    color: #000/*#EDB04A*/;
+    color: #EDB04A;
 }
