@@ -112,6 +112,8 @@ h1 {
 
 .about p, .about h1, .contact p, .contact h1 {
     width: 62% !important;
+    text-align: justify !important;
+    text-justify: distribute !important;
 }
 
 .testimonials {
